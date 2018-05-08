@@ -1,0 +1,64 @@
+*{
+    font-family: 'Gugi', cursive;
+    margin: 0;
+    padding: 0;
+}
+.logo-section{
+    padding: 18px;
+}
+.logo-section img{
+    margin: 5px;
+    width: 10rem;
+}
+.hb-button{
+    float: right;
+    background: #222;
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: inline;
+}
+nav{
+    position: fixed; 
+    background: #efefef;
+    width: 100%;
+    box-shadow: -2px -7px 47px 9px rgba(0,0,0,0.35);
+}
+
+nav a{
+    text-decoration: none;
+    color: #282828;
+    font-size: .9rem;
+    padding: 5px;
+}
+nav ul{
+    background: #fff;
+    overflow: hidden;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: max-height 0.5s;
+    max-height: 0;
+    width: 100%;
+}
+
+nav ul.show{
+    max-height: 20em;
+}
+
+nav ul li{
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+}
+
+li>a{
+    position: relative;
+    color: #000;
+    text-decoration: none;
+    
+}
