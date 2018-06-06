@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-../includes/db.php
-=======
-/includes/db.php
->>>>>>> b222600d8d26ced25c94cb2ba94f060ffccc353c
+includes/db.php
